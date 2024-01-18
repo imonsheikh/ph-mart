@@ -153,12 +153,13 @@
 .products_section .products{
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 2rem;
+   grid-gap: 2rem;
    justify-items: center;
+   
 }
 .products_section .products .product_card{
-   width: 25rem;
-   height: 25rem;
+   width: 40rem;
+   height: 30rem;
    background-color: #efefefef;
    border-radius: 2rem;
    display: flex;
@@ -181,5 +182,18 @@
    line-height: 1rem;
    font-size: 1.5rem;
    margin-top: 1rem;
-    
+
+}
+
+
+/* footer section  */
+footer{
+   margin-top: 5rem;
+   font-size: 1rem;
+   height: 8rem;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   background-color: #efefefef;
+
 }
